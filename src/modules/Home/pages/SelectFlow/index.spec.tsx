@@ -6,6 +6,5 @@ import wrapperTheme from '../../../../../jest/helpers/wrapperTheme';
 describe('Run', () => {
   it('renders correctly', () => {
     render(wrapperTheme(<SelectFlow />));
-    expect(1).toBe(1);
   });
 });
