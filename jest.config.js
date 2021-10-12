@@ -4,4 +4,5 @@ module.exports = {
   testMatch: ['<rootDir>/**/?(*.)(spec).{tsx,js,mjs}'],
   verbose: true,
   collectCoverage: true,
+  setupFiles: ['<rootDir>/jest/setup.js'],
 };
