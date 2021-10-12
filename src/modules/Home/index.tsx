@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-const Menu: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <View>
       <Text>marcos</Text>
@@ -9,4 +9,4 @@ const Menu: React.FC = () => {
   );
 };
 
-export default Menu;
+export default Home;

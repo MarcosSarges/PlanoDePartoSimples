@@ -8,9 +8,16 @@
 
 import React from 'react';
 import Modules from './modules';
+import 'react-native-gesture-handler';
+import { ThemeProvider } from 'styled-components/native';
+import Theme from './assets/theme';
 
 const App = () => {
-  return <Modules />;
+  return (
+    <ThemeProvider theme={Theme}>
+      <Modules />
+    </ThemeProvider>
+  );
 };
 
 export default App;
